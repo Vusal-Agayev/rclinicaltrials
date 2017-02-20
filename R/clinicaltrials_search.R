@@ -22,7 +22,7 @@
 #'
 #'
 clinicaltrials_search <-
-  function(query = NULL, count = 20)
+  function(query = NULL, count = 300000)
   {
     query_url <- "http://clinicaltrials.gov/ct2/results?"
 
